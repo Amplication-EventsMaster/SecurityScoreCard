@@ -17,6 +17,7 @@ export const AccountCreate = (props: CreateProps): React.ReactElement => {
     <Create {...props}>
       <SimpleForm>
         <TextInput label="Access Token" source="accessToken" />
+        <TextInput label="comment" source="comment" />
         <NumberInput step={1} label="Expires At" source="expiresAt" />
         <TextInput label="Id Token" source="idToken" />
         <TextInput label="Provider" source="provider" />

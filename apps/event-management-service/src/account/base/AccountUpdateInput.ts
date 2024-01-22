@@ -30,6 +30,17 @@ class AccountUpdateInput {
 
   @ApiProperty({
     required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  comment?: string;
+
+  @ApiProperty({
+    required: false,
     type: Number,
   })
   @IsInt()

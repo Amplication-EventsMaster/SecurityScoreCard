@@ -42,6 +42,7 @@ export class AccountControllerBase {
       },
       select: {
         accessToken: true,
+        comment: true,
         expiresAt: true,
         id: true,
         idToken: true,
@@ -71,6 +72,7 @@ export class AccountControllerBase {
       ...args,
       select: {
         accessToken: true,
+        comment: true,
         expiresAt: true,
         id: true,
         idToken: true,
@@ -101,6 +103,7 @@ export class AccountControllerBase {
       where: params,
       select: {
         accessToken: true,
+        comment: true,
         expiresAt: true,
         id: true,
         idToken: true,
@@ -148,6 +151,7 @@ export class AccountControllerBase {
         },
         select: {
           accessToken: true,
+          comment: true,
           expiresAt: true,
           id: true,
           idToken: true,
@@ -187,6 +191,7 @@ export class AccountControllerBase {
         where: params,
         select: {
           accessToken: true,
+          comment: true,
           expiresAt: true,
           id: true,
           idToken: true,

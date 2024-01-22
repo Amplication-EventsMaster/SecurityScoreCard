@@ -17,6 +17,7 @@ export const AccountEdit = (props: EditProps): React.ReactElement => {
     <Edit {...props}>
       <SimpleForm>
         <TextInput label="Access Token" source="accessToken" />
+        <TextInput label="comment" source="comment" />
         <NumberInput step={1} label="Expires At" source="expiresAt" />
         <TextInput label="Id Token" source="idToken" />
         <TextInput label="Provider" source="provider" />

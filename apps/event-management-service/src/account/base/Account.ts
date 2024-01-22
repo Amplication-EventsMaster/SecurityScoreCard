@@ -29,6 +29,14 @@ class Account {
   accessToken!: string | null;
 
   @ApiProperty({
+    required: true,
+    type: String,
+  })
+  @IsString()
+  @Field(() => String)
+  comment!: string;
+
+  @ApiProperty({
     required: false,
     type: Number,
   })

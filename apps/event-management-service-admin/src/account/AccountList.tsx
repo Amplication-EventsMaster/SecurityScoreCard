@@ -20,6 +20,7 @@ export const AccountList = (props: ListProps): React.ReactElement => {
     >
       <Datagrid rowClick="show">
         <TextField label="Access Token" source="accessToken" />
+        <TextField label="comment" source="comment" />
         <TextField label="Expires At" source="expiresAt" />
         <TextField label="ID" source="id" />
         <TextField label="Id Token" source="idToken" />
