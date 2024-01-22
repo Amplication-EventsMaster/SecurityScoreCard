@@ -2,6 +2,7 @@ import { User } from "../user/User";
 
 export type Account = {
   accessToken: string | null;
+  comment: string;
   expiresAt: number | null;
   id: string;
   idToken: string | null;

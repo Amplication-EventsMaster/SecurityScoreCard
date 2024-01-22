@@ -2,6 +2,7 @@ import { UserWhereUniqueInput } from "../user/UserWhereUniqueInput";
 
 export type AccountCreateInput = {
   accessToken?: string | null;
+  comment: string;
   expiresAt?: number | null;
   idToken?: string | null;
   provider: string;

@@ -2,6 +2,7 @@ import { SortOrder } from "../../util/SortOrder";
 
 export type AccountOrderByInput = {
   accessToken?: SortOrder;
+  comment?: SortOrder;
   expiresAt?: SortOrder;
   id?: SortOrder;
   idToken?: SortOrder;

@@ -19,6 +19,7 @@ const nonExistingId = "nonExistingId";
 const existingId = "existingId";
 const CREATE_INPUT = {
   accessToken: "exampleAccessToken",
+  comment: "exampleComment",
   expiresAt: 42,
   id: "exampleId",
   idToken: "exampleIdToken",
@@ -32,6 +33,7 @@ const CREATE_INPUT = {
 };
 const CREATE_RESULT = {
   accessToken: "exampleAccessToken",
+  comment: "exampleComment",
   expiresAt: 42,
   id: "exampleId",
   idToken: "exampleIdToken",
@@ -46,6 +48,7 @@ const CREATE_RESULT = {
 const FIND_MANY_RESULT = [
   {
     accessToken: "exampleAccessToken",
+    comment: "exampleComment",
     expiresAt: 42,
     id: "exampleId",
     idToken: "exampleIdToken",
@@ -60,6 +63,7 @@ const FIND_MANY_RESULT = [
 ];
 const FIND_ONE_RESULT = {
   accessToken: "exampleAccessToken",
+  comment: "exampleComment",
   expiresAt: 42,
   id: "exampleId",
   idToken: "exampleIdToken",

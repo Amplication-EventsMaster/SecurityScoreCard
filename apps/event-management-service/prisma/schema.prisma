@@ -358,6 +358,7 @@ model HashedLink {
 
 model Account {
   accessToken       String? @map("access_token") @db.Text
+  comment           String
   expiresAt         Int?    @map("expires_at")
   id                String  @id @default(cuid())
   idToken           String? @map("id_token") @db.Text
